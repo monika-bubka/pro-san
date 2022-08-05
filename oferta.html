@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- link css-->
+	<link 
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+		rel="stylesheet" 
+		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+		crossorigin="anonymous"
+    />
+    <!-- bootstrap icons-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+    <title>Pracownia Projektowa Prosan</title>
+  </head>
+  
+  <body style="color:#263c5a"> 
+	
+	<main class="position-relative">
+		<div class="card border-0 vw=100 position-absolute top-50 start-50 translate-middle" style="background-color:transparent;">
+		  <img class="float-start d-none d-md-block" src="logo.png" alt="logo Prosan" style="padding-left: 20px; width:100px">
+		  <h1 style="text-align:start;">PROSAN</h1>
+		  <h4 style="text-align:start;">Pracownia Projektowa</h4>
+		  <h5 style="font-style:italic; color:grey; text-align:end;">Dajemy ludziom ciepło</h5>
+		</div> 
+		<a href="index.html"><img class="vw-100" src="main_background.jpg" alt="main_background" /></a>
+	</main>
+	
+    <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+          <div class="container-fluid mx-4">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">O nas</a></li>
+                <li class="nav-item"><a class="nav-link" href="realizacje.html">Realizacje</a></li>
+				<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="oferta.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Oferta</a>
+                    <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="instal_sanit.html">Projekt instalacji sanitarnych</a></li>
+                        <li><a class="dropdown-item" href="siec_cieplo.html">Przyłączenie do sieci ciepłowniczej</a></li>
+						<li><a class="dropdown-item" href="ciepla_woda.html">Projekt ciepłej wody użytkowej</a></li>
+						<li><a class="dropdown-item" href="ogrzew_podlog.html">Projekt instalacji ogrzewania podłogowego</a></li>
+						<li><a class="dropdown-item" href="regulacja.html">Regulacja centralnego ogrzewania</a></li>
+						<li><hr></li>
+						<li><a class="dropdown-item" href="oferta.html">Cała oferta</a></li>
+					</ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+              </ul>				
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav> 
+		
+    <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5">
+                <p class="lead">Nasza firma zajmuje się wykonywaniem projektów instalacji grzewczych i sanitarnych zarówno dla obiektów nowych, jak i istniejących. Zdobyte doświadczenie na przestrzeni lat sprawia, że jesteśmy gotowi podjąć się nawet najbardziej skomplikowanych inwestycji. 
+								Zapraszamy do zapoznania się z naszą ofertą oraz do <a href="kontakt.html">kontaktu.</a>
+				</p>                          
+            </div>
+		</div>
+		
+		<div class="container g-5">
+			<a href="instal_sanit.html"><div class="row justify-content-center"><img src="Projekt budowlany centralnego ogrzewania.png" alt="Projekt budowlany centralnego ogrzewania" style="width: 200px; padding-bottom: 10px;"> 
+				</div>
+			</a>
+			<div class="row">
+                <div class="col-lg-12">
+					<p class="h4">Projekty instalacji sanitarnych dla nowych budynków (c.o., wod.-kan., gaz)</p>
+					<p>Wykonamy projekty budowlane i wykonawcze dla nowo projektowanych budynków w zakresie centralnego ogrzewania. Mamy możliwość zlecenia projektów pozostałym branżom dzięki czemu zajmiujemy się tematem kompleksowo Zapraszamy do współpracy biura architektoniczne i deweloperów. 
+									Więcej informacji <a href="instal_sanit.html">tutaj</a>.
+					</p>
+				</div>
+			<a href="ogrzew_podlog.html"><div class="row justify-content-center"><img src="Projekt ogrzewania podłogowego.png" alt="Projekt ogrzewania podłogowego" style="width: 180px;">
+				</div> 
+			</a>
+			    <div class="col-lg-12">
+					<p class="h4">Projekty ogrzewania podłogowego</p>
+					<p>Budujesz dom? Wykonamy projekty wykonawcze wewnętrznych instalacji takich jak ogrzewania podłogowego i projekty technologiczne źródeł ciepła. 
+									Więcej informacji <a href="ogrzew_podlog.html">tutaj</a>.
+					</p>
+					<p>Wykonamy również projekty instalacji gazowej niezbędnej do otrzymania zgody na budowę budynku.</p>	
+				</div>
+                <div class="col-lg-12 col-sm-6">
+					<a href="siec_cieplo.html"> <img src="Włączenie do sieci ciepłowniczej.png" alt="Włączenie do sieci ciepłowniczej" style="width: 200px;"> 
+					</a>
+					<p class="h4">Włączanie istniejących budynków do miejskiej sieci ciepłowniczej</p>
+					<p>Wykonamy projekty wykonawcze instalacji centralnego ogrzewania i centralnej ciepłej wody użytkowej wraz z projektem przyłącza i węzła wymiennikowego dla budynków istniejących m.in. kamienic. Zapraszamy do współpracy wspólnoty mieszkaniowe i właścicieli. 
+									Więcej informacji <a href="siec_cieplo.html">tutaj</a>.
+					</p>
+				</div>
+				<div class="col-lg-12 col-sm-6">
+					<a href="ciepla_woda.html"> <img src="Projekt ciepłej wody użytkowej.png" alt="Projekt ciepłej wody użytkowej" style="width: 200px; padding-bottom: 10px;"> 
+					</a>
+					<p class="h4">Projekt centralnej ciepłej wody użytkowej</p>
+					<p>Wykonamy projekt instalacji centralnej ciepłej wody użytkowej. Mamy bardzo duże doświadczenie w tym temacie. Zapraszamy do współpracy Spółdzielnie Mieszkaniowe zarządzającymi blokami z wielkiej płyty. 
+									Więcej informacji <a href="ciepla_woda.html">tutaj</a>.
+					</p>
+				</div>
+				<div class="col-lg-12 col-sm-6">
+					<a href="regulacja.html"> <img src="Regulacja instalacji co.png" alt="Regulacja instalacji co" style="width: 200px; padding-bottom: 10px;"> 
+					</a>
+					<p class="h4">Regulacja istniejącej instalacji centralnego ogrzewnia</p>
+					<p>Czy w Waszym budynku niektóre pomieszczenia są przegrzewane a inne niedogrzane? A może słychać szumy w trakcie pracy instalacji lub koszty ogrzewania są zbyt duże? Na te problemy może pomóc poprawna regulacja i zrównoważenie instalacji centralnego ogrzewania. 
+									Więcej informacji <a href="regulacja.html">tutaj</a>.
+					</p>	
+				</div>
+				<div class="col-lg-12 col-sm-6">
+					<a href="kontakt.html"> <img src="Świadectwo charakterystyki energetycznej budynku.png" alt="Świadectwo charakterystyki energetycznej budynku" style="width: 180px;"> 
+					</a>
+					<p class="h4">Świadectwa charakterystyki energetycznej budynku</p>
+					<p>Posiadamy wpis do rejestru uprawnionych inżynierów do wykonania świadectwa charakterystyki energetycznej budynków które jest wymagane przy sprzedaży / wynajmie lub dla budynków których ponad 250 m² powierzchni użytkowej zajmują organy administracji publicznej. 
+									Po więcej informacji proszę o <a href="kontakt.html">kontakt</a>.
+					</p>
+				</div>     		
+            </div>
+		</div>
+	<!-- Footer-->
+	
+		<div class="container">
+			<footer class="py-3 my-4">
+				<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+				  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">O nas</a></li>
+				  <li class="nav-item"><a href="realizacje.html" class="nav-link px-2 text-muted">Realizacje</a></li>
+				  <li class="nav-item"><a href="oferta.html" class="nav-link px-2 text-muted">Oferta</a></li>
+				  <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-muted">Kontakt</a></li>
+				</ul>
+			<p class="text-center text-muted">&copy; 2021 PP-Prosan</p>
+			</footer>
+		</div>
+		
+    <!-- Bootstrap core JS-->
+	<script 
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
+		crossorigin="anonymous"
+	></script>
+  </body>
+</html>
+	
